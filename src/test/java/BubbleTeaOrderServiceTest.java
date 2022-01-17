@@ -22,7 +22,7 @@ public class BubbleTeaOrderServiceTest {
         testDebitCard = new DebitCard("0123456789");
         paymentDetails = new PaymentDetails("hello kitty", "sanrio puroland", testDebitCard);
         dummySimpleLogger = new DummySimpleLogger();
-        mockMessenger = mock(BubbleTeaMessenger.class);
+        mockMessenger = mock(BubbleTeaMessenger.class); // Exer 3.1 appropriate test double : this creates a mock class of type bubbleTeaMessenger
         bubbleTeaOrderService = new BubbleTeaOrderService(dummySimpleLogger, mockMessenger);
     }
 

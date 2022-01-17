@@ -14,7 +14,8 @@ public class BubbleTeaRouletteService {
     }
 
     public BubbleTeaTypeEnum getRandomBubbleTeaType() {
-        return BubbleTeaTypeEnum.values()[RANDOM.nextInt(SIZE)];
+
+        return BubbleTeaTypeEnum.values()[RANDOM.nextInt(SIZE)]; //
     }
 
 }

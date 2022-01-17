@@ -8,6 +8,7 @@ public class BubbleTeaMessenger {
     private SimpleLoggerImpl simpleLogger;
 
     public BubbleTeaMessenger(SimpleLoggerImpl simpleLogger) {
+
         this.simpleLogger = simpleLogger;
     }
 

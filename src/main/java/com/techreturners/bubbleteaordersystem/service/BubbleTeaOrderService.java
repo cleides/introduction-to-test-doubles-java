@@ -8,7 +8,8 @@ public class BubbleTeaOrderService {
 
     private SimpleLoggerImpl simpleLogger;
     private BubbleTeaMessenger bubbleTeaMessenger;
-
+    // Injection is when are given helper objects in the constructor, also called dependency injection DI.
+    // BubbleTeaMessenger and SimpleLoggerImpl classes names are injected into our constructor.
     public BubbleTeaOrderService(SimpleLoggerImpl simpleLogger, BubbleTeaMessenger bubbleTeaMessenger) {
         this.simpleLogger = simpleLogger;
         this.bubbleTeaMessenger = bubbleTeaMessenger;

@@ -15,5 +15,4 @@ public class RandomStub extends Random {
     public int nextInt(int value) {
         return this.value;
     }
-
 }
