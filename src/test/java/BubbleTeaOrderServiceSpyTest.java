@@ -5,8 +5,8 @@ import com.techreturners.bubbleteaordersystem.service.BubbleTeaOrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import testhelper.DummySimpleLogger;
+import static org.junit.jupiter.api.Assertions.*;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 public class BubbleTeaOrderServiceSpyTest {
