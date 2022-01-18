@@ -4,7 +4,7 @@ import com.techreturners.bubbleteaordersystem.model.BubbleTeaTypeEnum;
 import org.junit.jupiter.api.Test;
 import testhelper.RandomStub;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BubbleTeaRouletteServiceTest {
 
@@ -24,7 +24,7 @@ public class BubbleTeaRouletteServiceTest {
 
     }
     @Test
-    public void testPeachIceTea() {
+    public void shouldGenerateARandomBubbleTeaTypePeachIceTeaWhenGetRandomBubbleTeaTypeIsCalled() {
 
         //Arrange -
         RandomStub randomStub = new RandomStub(BubbleTeaTypeEnum.PeachIceTea.ordinal());
